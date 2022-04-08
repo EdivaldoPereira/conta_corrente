@@ -1,10 +1,23 @@
-const cliente1Nome = "Ricardo"
-const cliente1CPF = 11111325456
-const cliente1Agencia = 0001
-const cliente1Saldo = 0
+class Cliente{
+    nome
+    cpf
+    agencia 
+    saldo 
+}
 
-const cliente2Nome = "Alice"
-const cliente2CPF = 21111325432
-const cliente2Agencia = 0001
-const cliente2Saldo = 0
+const cliente1 = new Cliente()
+const cliente2 = new Cliente()
 
+cliente1.nome = "Ricardo"
+cliente1.cpf = 11111325456
+cliente1.agencia = 0001
+cliente1.saldo = 0
+
+cliente2.nome = "Alice"
+cliente2.cpf = 21111325432
+cliente2.agencia = 0001
+cliente2.saldo = 0
+
+console.log(cliente1)
+
+console.log(cliente2)
