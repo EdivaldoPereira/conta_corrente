@@ -15,7 +15,7 @@ class ContaCorrente{
 
     depositar(valor){
         if(valor > 0){
-            this.valor += valor
+            this.saldo += valor
         }
     }
 }
@@ -32,12 +32,8 @@ const contaCorrenteRicardo = new ContaCorrente()
 contaCorrenteRicardo.saldo = 0
 contaCorrenteRicardo.agencia = 0001
 
-console.log(contaCorrenteRicardo.saldo)
-contaCorrenteRicardo.depositar(1000)
-contaCorrenteRicardo.depositar(130)
-contaCorrenteRicardo.depositar(87)
-contaCorrenteRicardo.sacar(2000)
-console.log(contaCorrenteRicardo.saldo)
+contaCorrenteRicardo.depositar(1874)
+contaCorrenteRicardo.sacar(200)
 
-console.log(cliente1, "\n", cliente2)
+console.log(contaCorrenteRicardo)
 
