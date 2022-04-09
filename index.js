@@ -1,8 +1,3 @@
-class Cliente{
-    nome
-    cpf
-}
-
 class ContaCorrente{
     agencia
     _saldo = 0
