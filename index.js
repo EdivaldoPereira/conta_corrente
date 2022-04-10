@@ -14,4 +14,5 @@ conta1.transferir(200, conta2)
 
 console.log(conta1)
 console.log(conta2)
+console.log("O número total de contas é ", ContaCorrente.numeroDeContas)
 
