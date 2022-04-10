@@ -5,14 +5,10 @@ const cliente1 = new Cliente("Ricardo", 11111325456)
 
 const cliente2 = new Cliente("Alice", 21111325432)
 
-const conta1 = new ContaCorrente()
-conta1.cliente = cliente1
-conta1.agencia = 1001
+const conta1 = new ContaCorrente(1001, cliente1)
 conta1.depositar(500)
 
-const conta2 = new ContaCorrente()
-conta2.cliente = cliente2
-conta2.agencia = 102
+const conta2 = new ContaCorrente(102, cliente2)
 
 conta1.transferir(200, conta2)
 
