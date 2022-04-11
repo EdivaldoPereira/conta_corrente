@@ -13,5 +13,5 @@ const contaPoupanca = new Conta(50, cliente1, 1001)
 
 console.log(contaCorrente)
 console.log(contaPoupanca)
-console.log("O número total de contas é ", ContaCorrente.numeroDeContas)
+
 
