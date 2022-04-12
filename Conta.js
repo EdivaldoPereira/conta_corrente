@@ -1,8 +1,9 @@
 export class Conta{
-    constructor(saldoInicial, cliente, agencia){
+    constructor(tipo, aldoInicial, cliente, agencia){
         this._saldo = saldoInicial
         this._cliente = cliente
         this._agencia = agencia
+        this._tipo = tipo
     }
     set cliente(novoValor){
         if(novoValor instanceof Cliente)
@@ -16,6 +17,11 @@ export class Conta{
         return this.saldo
     }
     sacar(valor){
+        let = taxa = 1
+        if(this._tipo == "corrente"{
+            taxa = 1.1
+        })
+        const valorSacado = taxa * valor
         if(this._saldo >= valor){
             this._saldo -= valor
             return valor
