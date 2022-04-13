@@ -20,8 +20,7 @@ export class Conta{
         return this.saldo
     }
     sacar(valor){
-        let taxa = 1
-        return this._sacar(valor, taxa)
+       
     }
 
     _sacar(valor, taxa){
