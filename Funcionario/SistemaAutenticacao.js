@@ -1,5 +1,7 @@
+//Autenticavel significa ter a propriedade "senha"
+
 export class SistemaAutenticacao{
-    static login(funcionario, senha){
-        return funcionario._senha == senha
+    static login(autenticavel, senha){
+        return autenticavel._senha == senha
     }
 }
